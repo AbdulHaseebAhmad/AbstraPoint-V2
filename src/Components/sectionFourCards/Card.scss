@@ -1,0 +1,100 @@
+.crads-container {
+  padding: 2rem 2rem; //subject to change
+  background: var(--AP-silver, #4e4d4d);
+  border-radius: 4px;
+  min-width: 320px;
+  max-width: 320px;
+  margin: 0px auto;
+  position: relative;
+  .shadow {
+    position: absolute;
+    background: var(--Ap-medium-yellow, #fad47f);
+    width: 1.5rem;
+    height: 93% !important;
+    top: 7%;
+    left: -4.5%;
+    z-index: -10;
+  }
+  .cards-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.25rem;
+    .img {
+      img {
+        height: 1rem;
+      }
+    }
+
+    .comment-text {
+      .comment {
+        color: var(--Ap-neutral-silver, #f9fbfd);
+        font-size: 0.85rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.2%;
+      }
+    }
+
+    .details-container {
+      .name {
+        color: var(--Ap-neutral-silver, #f9fbfd);
+        font-size: 0.85rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 165.2%;
+      }
+      .organisation {
+        color: var(--Ap-neutral-silver, #f9fbfd);
+        font-size: 0.85rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.2%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .crads-container {
+    padding: 2rem 4rem; //subject to change
+    min-width: 380px;
+    max-width: 380px;
+    margin: 0px auto;
+    position: relative;
+    .shadow {
+      width: 1.5rem;
+    }
+    .cards-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 1.35rem;
+      .img {
+        img {
+          height: 1.25rem;
+        }
+      }
+
+      .comment-text {
+        .comment {
+          font-size: 1rem;
+          line-height: 165.2%;
+        }
+      }
+
+      .details-container {
+        .name {
+          font-size: 1rem;
+          line-height: 165.2%;
+        }
+        .organisation {
+          font-size: 1rem;
+          line-height: 165.2%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+html,body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  max-width:1428px ;
+  margin: 0px auto;
+  font-size: 16px;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding-left: 1.25rem; 
+}
+
+:focus {
+  outline: auto;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+
+:root {
+  --AP-white: #fff;
+  --AP-black: #000;
+  --AP-yellow: #FBB957;
+  --AP-gray :#4E4D4D;
+  --AP-button-text: #404040;
+  --AP-sub-heading :#545454;
+  --AP-silver :#4E4D4D;
+  --AP-neutral-Silver :#f9fbfd;
+  --Ap-medium-yellow:#FAD47F;
+  --Ap-dark-yellow:#FBB957;
+  --Ap-tint-t5:#fdf3dc;
+}

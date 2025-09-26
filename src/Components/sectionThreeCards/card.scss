@@ -1,0 +1,92 @@
+.card-container {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  gap: 0.5rem;
+  margin: 0px auto;
+
+  .img {
+    img {
+      max-height: 40px;
+    }
+  }
+
+  .card-ttile {
+    .titlle {
+      color: var(--AP-sub-heading, #545454);
+      text-align: center;
+      font-size: 1.2rem; // needs adjustment
+      font-style: normal;
+      font-weight: 700;
+      line-height: 165.196%; // needs adjustment
+    }
+  }
+
+  .card-text {
+    .text {
+      color: var(--AP-sub-heading, #545454);
+      text-align: center;
+      font-size: 1rem; // needs adjustment
+      font-style: normal;
+      font-weight: 400;
+      line-height: 165.196%; // needs adjustment
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    max-width: 330px;
+    gap: 0.9rem;
+    margin: 0px auto;
+
+    .img {
+      img {
+      }
+    }
+
+    .card-ttile {
+      .titlle {
+        font-size: 1.1rem; // needs adjustment
+        line-height: 165.196%; // needs adjustment
+      }
+    }
+
+    .card-text {
+      .text {
+        font-size: 1rem; // needs adjustment
+        line-height: 165.196%; // needs adjustment
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-container {
+    max-width: 350px;
+    gap: 0.5rem;
+    margin: 0px auto;
+
+    .img {
+      img {
+        max-height: 45px;
+      }
+    }
+
+    .card-ttile {
+      .titlle {
+        font-size: 1.3rem; // needs adjustment
+        line-height: 165.196%; // needs adjustment
+      }
+    }
+
+    .card-text {
+      .text {
+        font-size: 1rem; // needs adjustment
+        line-height: 165.196%; // needs adjustment
+      }
+    }
+  }
+}

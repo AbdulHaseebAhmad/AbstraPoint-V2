@@ -1,0 +1,107 @@
+.sectionFive-outter-container {
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  margin: 94px 0px 94px 0px;
+  background-color: var(--Ap-gray, #4e4d4d);
+  .sectionFive-inner-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    .sectionFive-heading {
+      .heading {
+        color: var(--AP-dark-yellow, #fbb957);
+        font-size: 1.3rem; // needs adjustment
+        font-style: normal;
+        font-weight: 600;
+        line-height: 165.196%; // needs adjustment
+      }
+    }
+
+    .sectionFive-text {
+      .text {
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 165.196%;
+      }
+    }
+
+    .sectionFive-button {
+      width: 80%;
+      margin: 0px auto;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .sectionFive-outter-container {
+    padding: 3.5rem ;
+    margin: 94px 0px 94px 0px;
+    .sectionFive-inner-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      .sectionFive-heading {
+        .heading {
+           font-size: 1.3rem; // needs adjustment
+            line-height: 165.196%; // needs adjustment
+        }
+      }
+
+      .sectionFive-text {
+        width:90%;
+        .text {
+          font-size: 1rem;
+          line-height: 165.196%;
+        }
+      }
+
+      .sectionFive-button {
+        width: 50%;
+        margin: 30px auto 0px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .sectionFive-outter-container {
+    padding: 4.5rem ;
+    margin: 160px 0px 0px 0px;
+    .sectionFive-inner-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+      .sectionFive-heading {
+        .heading {
+           font-size: 1.5rem; // needs adjustment
+            line-height: 165.196%; // needs adjustment
+        }
+      }
+
+      .sectionFive-text {
+        width:87%;
+        .text {
+          font-size: 1rem;
+          line-height: 165.196%;
+        }
+      }
+
+      .sectionFive-button {
+        width: 40%;
+        margin: 30px auto 0px;
+      }
+    }
+  }
+}
